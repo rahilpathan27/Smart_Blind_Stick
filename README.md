@@ -18,7 +18,7 @@ Block Diagram
 Wiring Diagram
 <img width="3496" height="2503" alt="image" src="https://github.com/user-attachments/assets/3db0cc1a-6615-4be0-9ad6-f3a11349215e" />
 
-🗂️ Folder Structure
+Folder Structure
 Smart_Blind_Stick/
 ├── src/                    # Source code
 │   ├── Sstick.ino          # Main Arduino sketch
@@ -32,6 +32,7 @@ Smart_Blind_Stick/
 │   ├── wiring_diagram.png
 │   ├── block_diagram.png
 ├── README.md               # You're reading it!
+
 
 All sensor logic is modularized into .cpp/.h control classes under src/ for clarity and scalability.
 **How to Use**
@@ -53,7 +54,7 @@ Sketch
 
 
 **Setup Instructions**
-Connect components as per the wiring diagram
-Clone this repository and open it in Arduino IDE
-Install the Adafruit_ADXL345 library via Arduino Library Manager
-Touch to activate — let perception take over!
+1. Connect components as per the wiring diagram
+2. Clone this repository and open it in Arduino IDE
+3. Install the Adafruit_ADXL345 library via Arduino Library Manager
+4. Touch to activate — let perception take over!
