@@ -19,6 +19,7 @@ Wiring Diagram
 <img width="3496" height="2503" alt="image" src="https://github.com/user-attachments/assets/3db0cc1a-6615-4be0-9ad6-f3a11349215e" />
 
 Folder Structure
+```
 Smart_Blind_Stick/
 ├── src/                    # Source code
 │   ├── Sstick.ino          # Main Arduino sketch
@@ -32,7 +33,7 @@ Smart_Blind_Stick/
 │   ├── wiring_diagram.png
 │   ├── block_diagram.png
 ├── README.md               # You're reading it!
-
+```
 
 All sensor logic is modularized into .cpp/.h control classes under src/ for clarity and scalability.
 **How to Use**
